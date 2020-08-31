@@ -4,32 +4,24 @@
  */
 public class Problem3 {
     public int lengthOfLongestSubstring(String s) {
-        if(s.isEmpty()) return 0;
+        if (s.isEmpty()) return 0;
         int maxLength = 1;
-        int curLength = 0;
+        int curStart = 0;
         char[] chars = s.toCharArray();
-//chose substring
-        for (int i = 0; i < s.length() - maxLength; i++) {
-            for (int j = i + 1; j <= s.length(); j++) {
-                if(checkAllCharsUnique(s.substring(i, j).toCharArray())){
-                    curLength = j-i;
-                }
-            }
-            if(curLength > maxLength){
-                maxLength = curLength;
-            }
-        }
-        return maxLength;
-    }
+        int[] count = new int[256];
 
-    private boolean checkAllCharsUnique(char[] chars) {
-        for (int i = 0; i < chars.length - 1; i++) {
-            for (int j = i + 1; j < chars.length; j++) {
-                if (chars[i] == chars[j]) {
-                    return false;
+        for (int i = 0; i < s.length(); i++) {
+            count[chars[i]]++;
+            if(count[chars[i]] > 1){
+                while(curStart < i && count[chars[i]] > 1){
+                    count[chars[curStart++]]--;
                 }
             }
+            if(maxLength < i-curStart+1){
+                maxLength = i-curStart+1;
+            }
         }
-        return true;
+
+        return maxLength;
     }
 }
