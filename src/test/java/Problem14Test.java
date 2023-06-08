@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 
 public class Problem14Test {
-    Problem14 problem14 = new Problem14();
+    private final Problem14 problem14 = new Problem14();
 
     @Test
     public void test1() {

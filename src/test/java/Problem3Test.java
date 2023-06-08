@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 
 public class Problem3Test {
-    Problem3 substringFinder = new Problem3();
+    private final Problem3 substringFinder = new Problem3();
 
     @Test
     public void test1(){

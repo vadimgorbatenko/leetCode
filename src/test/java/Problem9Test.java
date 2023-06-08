@@ -4,7 +4,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class Problem9Test {
-    Problem9 palindromeChecker = new Problem9();
+    private final Problem9 palindromeChecker = new Problem9();
 
     @Test
     public void test() {

@@ -3,7 +3,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 
 public class Problem189Test {
-    private Problem189 rotator = new Problem189();
+    private final Problem189 rotator = new Problem189();
 
     @Test
     public void withoutRotate() {

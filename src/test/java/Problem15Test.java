@@ -6,7 +6,7 @@ import java.util.List;
 import static org.junit.Assert.assertTrue;
 
 public class Problem15Test {
-    Problem15 tripletSearcher = new Problem15();
+    private final Problem15 tripletSearcher = new Problem15();
 
     @Test
     public void threeSumTest() {

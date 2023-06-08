@@ -3,7 +3,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class Problem27Test {
-    Problem27 solver = new Problem27();
+    private final Problem27 solver = new Problem27();
 
     @Test
     public void test1() {
