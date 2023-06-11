@@ -1,8 +1,5 @@
-
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 /**
  * 22. Generate Parentheses
@@ -21,13 +18,13 @@ public class Problem22 {
 
     private void addParenthesis(int max, int l, int r, List<String> strings, String str) {
         if (l > 0) {
-            addParenthesis(max, l-1, r, strings, str + "(");
+            addParenthesis(max, l - 1, r, strings, str + "(");
         }
         if (r > 0 && r > l) {
-            addParenthesis(max, l, r-1, strings, str + ")");
+            addParenthesis(max, l, r - 1, strings, str + ")");
         }
 
-        if(str.length() == max*2){
+        if (str.length() == max * 2) {
             strings.add(str);
         }
     }

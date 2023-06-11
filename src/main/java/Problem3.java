@@ -12,13 +12,13 @@ public class Problem3 {
 
         for (int i = 0; i < s.length(); i++) {
             count[chars[i]]++;
-            if(count[chars[i]] > 1){
-                while(curStart < i && count[chars[i]] > 1){
+            if (count[chars[i]] > 1) {
+                while (curStart < i && count[chars[i]] > 1) {
                     count[chars[curStart++]]--;
                 }
             }
-            if(maxLength < i-curStart+1){
-                maxLength = i-curStart+1;
+            if (maxLength < i - curStart + 1) {
+                maxLength = i - curStart + 1;
             }
         }
 

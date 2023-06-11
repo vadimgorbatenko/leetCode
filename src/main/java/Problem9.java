@@ -27,7 +27,7 @@ public class Problem9 {
             x = x / 10;
         }
 
-        for (int i = 0; i < length/2; i++) {
+        for (int i = 0; i < length / 2; i++) {
             if (values[i] != values[length - 1 - i]) {
                 return false;
             }

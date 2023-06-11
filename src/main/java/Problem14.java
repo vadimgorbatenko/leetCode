@@ -21,7 +21,7 @@ public class Problem14 {
                 }
                 cur = j + 1;
             }
-            if(cur < prefix){
+            if (cur < prefix) {
                 prefix = cur;
             }
         }

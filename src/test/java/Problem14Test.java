@@ -25,7 +25,7 @@ public class Problem14Test {
 
     @Test
     public void test4() {
-        String[] strs = {"flower","flow","flight"};
+        String[] strs = {"flower", "flow", "flight"};
         assertEquals("fl", problem14.longestCommonPrefix(strs));
     }
 
@@ -43,7 +43,7 @@ public class Problem14Test {
 
     @Test
     public void test7() {
-        String[] strs = {"abab","aba",""};
+        String[] strs = {"abab", "aba", ""};
         assertEquals("", problem14.longestCommonPrefix(strs));
     }
 }
