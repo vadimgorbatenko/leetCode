@@ -1,6 +1,6 @@
 /**
  * 3. Longest Substring Without Repeating Characters
- * https://leetcode.com/problems/longest-substring-without-repeating-characters/
+ * <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">...</a>
  */
 public class Problem3 {
     public int lengthOfLongestSubstring(String s) {

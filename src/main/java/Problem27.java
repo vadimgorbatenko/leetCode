@@ -11,7 +11,7 @@
  * remaining elements of nums are not important as well as the size of nums.
  * Return k.
  * <p>
- * https://leetcode.com/problems/remove-element/
+ * <a href="https://leetcode.com/problems/remove-element/">...</a>
  */
 public class Problem27 {
     public int removeElement(int[] nums, int val) {

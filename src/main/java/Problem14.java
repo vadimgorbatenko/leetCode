@@ -4,7 +4,7 @@
  * Write a function to find the longest common prefix string amongst an array of strings.
  * If there is no common prefix, return an empty string "".
  * <p>
- * https://leetcode.com/problems/longest-common-prefix/
+ * <a href="https://leetcode.com/problems/longest-common-prefix/">...</a>
  */
 public class Problem14 {
     public String longestCommonPrefix(String[] strs) {

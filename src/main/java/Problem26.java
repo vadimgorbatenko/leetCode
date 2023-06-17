@@ -9,7 +9,7 @@
  * present in nums initially. The remaining elements of nums are not important as well as the size of nums.
  * Return k.
  * <p>
- * https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+ * <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">...</a>
  */
 public class Problem26 {
     public int removeDuplicates(int[] nums) {

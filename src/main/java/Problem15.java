@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * 15. 3Sum
- * https://leetcode.com/problems/3sum/description/
+ * <a href="https://leetcode.com/problems/3sum/description/">...</a>
  */
 public class Problem15 {
     public List<List<Integer>> threeSum(int[] nums) {
