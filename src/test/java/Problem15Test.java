@@ -1,3 +1,5 @@
+import java.util.HashSet;
+import java.util.Set;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
@@ -20,5 +22,4 @@ public class Problem15Test {
         assertTrue(triplets.contains(t1));
         assertTrue(triplets.contains(t2));
     }
-
 }
